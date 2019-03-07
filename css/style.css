@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6dfe4;
+  font-family: "Cairo";
+  overflow-x: hidden;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  background-color: #2bb673;
+  display: flex;
+}
+
+.nav-bar ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav-item img {
+  position: relative;
+  top: 8px;
+  left: 5px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*  location drop down menu  */
+.location {
+  position: relative;
+  width: 280px;
+  height: 30px;
+  margin: 20px auto 10px;
+  background-color: #2bb673;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.location_dropDown {
+  width: 100%;
+  padding: 5px;
+  position: absolute;
+  z-index: 9999;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.dropdown_header {
+  cursor: pointer;
+  color: #fff;
+}
+
+.location_dropDown a {
+  text-decoration: none;
+  display: block;
+  color: #282e34;
+  margin-top: 5px;
+}
+
+.location_dropDown a:hover {
+  background-color: #d6dfe4;
+}
+
+/* search bar */
+
+.search_bar {
+  position: relative;
+  width: 380px;
+  height: 30px;
+  margin: 20px auto 10px;
+  background-color: #2bb673;
+  border-radius: 4px;
+}
+
+/*  main content  */
+.container {
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto 20px;
+  padding: 0 25px;
+  background-color: #d6dfe4;
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  width: 235px;
+  height: 235px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fefefe;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card_cover {
+  width: 235px;
+  height: 165px;
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+}
+
+.card_title {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  font-weight: lighter;
+  color: #314f60;
+}
+
+.card a {
+  text-decoration: none;
+}

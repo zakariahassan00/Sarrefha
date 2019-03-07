@@ -1,0 +1,34 @@
+@media only screen and (max-width: 520px) {
+  .nav-item {
+    border-left: 1px solid #fff;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .nav-bar {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+  }
+
+  /* search bar */
+  .search_bar {
+    width: 100%;
+  }
+
+  /* content */
+  .card {
+    width: 110px;
+    height: 110px;
+  }
+
+  .card_cover {
+    width: 110px;
+    height: 80px;
+  }
+
+  .card_title {
+    padding: 2px;
+    font-size: 0.5em;
+  }
+}
