@@ -3,9 +3,9 @@ $(function() {
   let chosenCity = "";
 
   // toggle the content of the location bar
-  $(".dropdown_header").on("click", () => {
-    $(".location_dropDown").toggleClass("hidden");
-  });
+  $(".dropdown_header").on("click", () =>
+    $(".location_dropDown").toggleClass("hidden")
+  );
 
   // change the location
   $(".city").on("click", function(e) {

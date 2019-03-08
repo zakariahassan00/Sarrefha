@@ -1,4 +1,4 @@
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 612px) {
   .nav-item {
     border-left: 1px solid #fff;
     font-size: 14px;
@@ -7,28 +7,86 @@
 
   .nav-bar {
     position: fixed;
-    bottom: 0;
+    top: 0;
     height: 50px;
+    z-index: 9999;
   }
 
   /* search bar */
   .search_bar {
+    margin-top: 70px;
     width: 100%;
   }
 
   /* content */
   .card {
-    width: 110px;
-    height: 110px;
+    width: 140px;
+    height: 140px;
   }
 
   .card_cover {
-    width: 110px;
-    height: 80px;
+    width: 140px;
+    height: 100px;
   }
 
   .card_title {
-    padding: 2px;
-    font-size: 0.5em;
+    padding: 5px 2px;
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 613px) {
+  /* content */
+  .card {
+    width: 160px;
+    height: 160px;
+  }
+
+  .card_cover {
+    width: 160px;
+    height: 120px;
+  }
+
+  .card_title {
+    padding: 5px 2px;
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 785px) {
+  .card {
+    width: 220px;
+    height: 220px;
+  }
+
+  .card_cover {
+    width: 220px;
+    height: 155px;
+  }
+
+  .card_title {
+    padding: 10px 5px;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    width: 250px;
+    height: 250px;
+  }
+
+  .card_cover {
+    width: 250px;
+    height: 190px;
+  }
+
+  .card_title {
+    padding: 10px 5px;
+    font-size: 1em;
+  }
+
+  .nav-item {
+    font-size: 22px;
   }
 }

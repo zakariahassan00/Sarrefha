@@ -93,8 +93,23 @@ body {
   width: 380px;
   height: 30px;
   margin: 20px auto 10px;
-  background-color: #2bb673;
-  border-radius: 4px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.search_bar input {
+  width: 90%;
+  height: 90%;
+  border: none;
+  padding: 5px 25px;
+  outline: none;
+}
+
+.search_bar .fa-search {
+  width: 20px;
+  height: 30px;
+  color: #2bb673;
+  cursor: pointer;
 }
 
 /*  main content  */
@@ -104,10 +119,11 @@ body {
   margin: 0 auto 20px;
   padding: 0 25px;
   background-color: #d6dfe4;
-  align-content: space-between;
   display: flex;
   flex-wrap: wrap;
+  align-content: space-around;
   align-items: center;
+  justify-content: center;
 }
 
 .card {
@@ -115,7 +131,7 @@ body {
   height: 235px;
   overflow: hidden;
   border-radius: 15px;
-  margin: 20px auto;
+  margin: 20px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #fefefe;
 }
